@@ -1,0 +1,28 @@
+V0.1
+client/  
+├── public/  
+│   └── index.html  
+├── src/  
+│   ├── App.js  
+│   ├── index.js  
+│   ├── components/  
+│   │   ├── StudentList.js  
+│   │   ├── AddStudent.js  
+│   │   └── StudentDetails.js  
+│   └── pages/  
+│       └── HomePage.js  
+├── package.json  
+└── .gitignore
+server/  
+├── controllers/  
+│   └── studentController.js  
+├── models/  
+│   └── studentModel.js (假设使用MongoDB，则为mongoose模型)  
+├── routes/  
+│   └── studentRoutes.js  
+├── middleware/  
+│   └── authMiddleware.js (可选，用于身份验证)  
+├── config/  
+│   └── dbConfig.js  
+├── server.js  
+└── .env (环境变量，如数据库URI)
